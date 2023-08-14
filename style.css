@@ -3,13 +3,13 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    padding: 0;
+    margin: 0;
   }
 
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
 }  
 
 button {
@@ -46,6 +46,7 @@ button {
 }
 
 .header {
+    padding: 10px 0;
     font-size: 24px;
     display: flex;
     justify-content: space-between;
@@ -59,16 +60,20 @@ button {
 
 .hero-content {
     display: flex;
-    padding: 120px 0;
+
 }
 
+.test {
+   flex: 1;
+}
 
 .img {
-    background-color: rgb(192, 187, 187);
-    display: flex;
-    text-align: center;
-    align-items: center;
+    background-color: rgb(138, 130, 130);
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }   
 
 
@@ -76,4 +81,5 @@ button {
 
 .one {
     background-color: #1f2937;
+    height: 600px;
 }
