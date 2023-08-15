@@ -131,3 +131,33 @@ button {
 .section-two-content-item p {
     margin-top: 6px;
 }
+
+/* SECTION THREE */
+
+.three {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three-content {
+    width: 45%;
+}
+
+.section-three-quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-three-thor {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* SECTION FOUR */
+
