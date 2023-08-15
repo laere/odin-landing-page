@@ -135,7 +135,7 @@ button {
 /* SECTION THREE */
 
 .three {
-    height: 400px;
+    height: 450px;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ button {
 }
 
 .section-three-content {
-    width: 45%;
+    width: 46%;
 }
 
 .section-three-quote {
@@ -161,3 +161,32 @@ button {
 
 /* SECTION FOUR */
 
+.four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four-container {
+    background-color: #3882f6;
+    width: 65%;
+    padding: 40px 0;
+    border-radius: 6px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-four-button {
+    border: 2px solid #e5e7eb;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 24px 0;
+    text-align: center;
+}
